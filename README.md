@@ -6,10 +6,15 @@ Bu projede kullanılan teknolojiler:
 
 
  -Navigation Component
+ 
  -Bottom Navigation
+ 
  -ScrollView
+ 
  -RecyclerView, adapter, cardview
+ 
  -Material Design
+ 
  -Viewbinding
 
 
