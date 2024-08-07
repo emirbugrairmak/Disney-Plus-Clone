@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/anaSayfaFragment">
+
+    <fragment
+        android:id="@+id/anaSayfaFragment"
+        android:name="com.example.disneyplusapp.ui.fragment.AnaSayfaFragment"
+        android:label="fragment_ana_sayfa"
+        tools:layout="@layout/fragment_ana_sayfa" >
+        <action
+            android:id="@+id/detayGecis"
+            app:destination="@id/detayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detayFragment"
+        android:name="com.example.disneyplusapp.ui.fragment.DetayFragment"
+        android:label="fragment_detay"
+        tools:layout="@layout/fragment_detay" >
+        <argument
+            android:name="film1"
+            app:argType="com.example.disneyplusapp.data.entity.Filmler"
+            app:nullable="true"/>
+        <argument
+            android:name="film2"
+            app:argType="com.example.disneyplusapp.data.entity.Filmler2"
+            app:nullable="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/aramaFragment"
+        android:name="com.example.disneyplusapp.ui.fragment.AramaFragment"
+        android:label="fragment_arama"
+        tools:layout="@layout/fragment_arama" >
+        <action
+            android:id="@+id/tiklaGecis"
+            app:destination="@id/detayFragment" />
+    </fragment>
+</navigation>
