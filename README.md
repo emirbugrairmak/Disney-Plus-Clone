@@ -2,7 +2,7 @@
  It has been developed by using Android Studio.
 
 
-Bu projede kullanılan teknolojiler: 
+#Bu projede kullanılan teknolojiler: 
 
 
  -Navigation Component
@@ -16,6 +16,9 @@ Bu projede kullanılan teknolojiler:
  -Material Design
  
  -Viewbinding
+
+
+#Summary
 
 
  Bu proje Disney+ isimli film ve dizi izleme uygulaması baz alınarak oluşturulmuştur. Tasarımsal olarak benzerdir.
