@@ -3,6 +3,8 @@
 
 
 Bu projede kullanılan teknolojiler: 
+
+
  -Navigation Component
  -Bottom Navigation
  -ScrollView
