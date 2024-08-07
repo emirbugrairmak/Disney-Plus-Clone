@@ -19,6 +19,7 @@ Bu projede kullanılan teknolojiler:
 
 
 
+
  Bu proje Disney+ isimli film ve dizi izleme uygulaması baz alınarak oluşturulmuştur. Tasarımsal olarak benzerdir.
 
 
