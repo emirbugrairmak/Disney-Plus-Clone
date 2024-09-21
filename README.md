@@ -1,8 +1,7 @@
 # Disney-Plus-Clone
- It has been developed by using Android Studio.
+ 
 
-
-Bu projede kullanılan teknolojiler: 
+## Bu projede kullanılan teknolojiler: 
 
 
  -Navigation Component
@@ -32,7 +31,7 @@ arama sayfasına geçişi sağladım.
  Anasayfadaki film ve diziler için ise RecyclerView oluşturdum ve Adapter yapısını kullandım. Her bir dizi ve film için cardview tasarımı oluşturdum. Bu cardviewlardan herhangi birine tıklanıldığında o film veya dizinin afişi çıkıyor ve izleme butonu tekrar aktif oluyor.
 
 
- Uygulamama ait ekran görüntüleri ve ekran kayıtları aşağıdadır...
+ ## Uygulamama ait ekran görüntüleri ve ekran kayıtları aşağıdadır...
 
 
 
